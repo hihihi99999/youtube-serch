@@ -7,7 +7,7 @@ st.title("YouTube動画検索アプリ")
 st.write("検索キーワードを入力して、YouTube動画を検索できます。")
 
 # API情報
-DEVELOPER_KEY
+DEVELOPER_KEY = st.secrets.DEVELOPER_KEY
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 
